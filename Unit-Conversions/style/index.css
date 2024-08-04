@@ -1,0 +1,113 @@
+*{
+    margin: 10px;
+    background-color:#bcb90b
+}
+#home{
+   background-color: #33554c;
+   padding-bottom: 1cm;
+   margin-left: -1cm;
+   margin-top: -1cm;
+   padding-top: 2cm;
+   padding-bottom: 2cm;
+
+}
+header{
+    font-size: 30px;
+    color: light purple;
+    float: left;
+    padding-left: 2cm;
+
+
+}
+.topdiv{
+    float: right;
+    padding-right: 1cm;
+
+}
+.topmenu{
+    color: gray;
+    background-color: #483355;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 1mm;
+}
+.topmenu:hover{
+    color: #fff;
+    font-weight: bolder;
+    background-color: #382742;
+    text-decoration: underline;
+}
+#all-conversion-sections{
+    display: grid;
+    justify-content: center;
+}
+figure{
+    float: left;
+    justify-self: auto;
+    width: 200px;
+
+}
+img{
+    width: 200px;
+
+}
+figcaption{
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+button{
+    font-size: 20px;
+    border: transparent;
+    width: fit-content;
+    background-color: rgb(173, 184, 218);
+}
+button :hover{
+    cursor: pointer;
+}
+.b{
+    border-top-style: solid;
+    background-color: #fff;
+    border-width: 20px;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display: flex;
+}
+.temperature{
+    border-top-color:rgb(128, 38, 5);
+}
+.weight{
+    border-top-color:coral ;
+
+}
+.distance{
+    border-top-color:cyan ;
+}
+legend{
+    font-size: 30px;
+    font-weight: bold;
+}
+.iconbutton{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(225, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+}
+.iconbutton img{
+    width: 30px;
+}
+footer{
+    background-color: rgb(240, 230, 250);
+    margin-top: 20px;
+}
